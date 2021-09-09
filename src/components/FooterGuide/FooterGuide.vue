@@ -4,28 +4,28 @@
       <span>
         <i class="iconfont icon-icon-test"></i>
       </span>
-      <span>首页</span>
+      <span>{{$t('footer_home')}}</span>
     </span>
 
     <span class="guide_item" :class="{on: $route.path === '/search'}" @click="goto('/search')">
       <span>
         <i class="iconfont icon-search"></i>
       </span>
-      <span>搜索</span>
+      <span>{{$t('footer_search')}}</span>
     </span>
 
     <span class="guide_item" :class="{on: $route.path === '/order'}" @click="goto('/order')">
       <span>
         <i class="iconfont icon-emaxcitygerenxinxitubiaoji03"></i>
       </span>
-      <span>订单</span>
+      <span>{{$t('footer_order')}}</span>
     </span>
 
     <span class="guide_item" :class="{on: $route.path === '/profile'}" @click="goto('/profile')">
       <span>
         <i class="iconfont icon-yonghudianji"></i>
       </span>
-      <span>个人</span>
+      <span>{{$t('footer_own')}}</span>
     </span>
   </div>
 </template>
